@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family : Gilroy;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+#main{
+  display: flex;
+  justify-content: center;
+  padding: 2vw;
+}
+.container #nike{
+  height: 2vw;
+  width: 2vw;
+  display: block;
+ 
+}
+.container{
+  width: 25vw;
+  background-color: #bcbaba;
+  height: 40vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2vw;
+}
+
+.container h1{
+  font-weight: 600;
+  font-size: 1.5vw;
+  color: black;
+  padding: 2vw;
+  margin-left: 4vw;
+}
+.container #insider{
+
+}
+.container #insider #firstP{
+  font-size: 2vh;
+  padding-left: 2vw; 
+  padding-right: 4vw; 
+  line-height: 3vh;
+  margin-left: 3.5vw;
+}
+.container #insider form{
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+.container #insider form input{
+     margin: 1vw;
+     padding: .5vw;
+     width: 18vw;
+}
+.container #insider form #lastP{
+     /* margin: 1vw; */
+     /* padding: .5vw;   */
+     width: 18vw;
+}
