@@ -82,3 +82,18 @@
 //     arr[arr.length-1] = one
 // }
 // console.log(arr,count)
+
+
+
+// let prompt = require('prompt-sync')()
+// let input = Number(prompt('Enter your array length'))
+// let arr = []
+// let max = 0
+
+// for(let i = 1; i<=input;i++){
+//     arr[i] = Number(prompt('Enter your array elements'))
+//     if(max<arr[i]){
+//         max = arr[i]
+//     }
+// }
+// console.log(max)
