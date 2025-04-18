@@ -97,3 +97,19 @@
 //     }
 // }
 // console.log(max)
+
+
+
+// let prompt =  require('prompt-sync')()
+// let input = Number(prompt('Enter your array length'))
+// let arr = new Array(input)
+// let newArr = []
+
+// for(let i = 0;i<arr.length; i++){
+//     let innerArr = Number(prompt('Enter your innner Array length'))
+//     arr[i] = new Array(innerArr)
+//     for(let j = 0; j<arr[i].length; j++){
+//         arr[i][j] = Number(prompt('Enter your array Elements'))
+//     }
+// }
+// console.log(arr)
