@@ -81,7 +81,7 @@
 //     }
 //     arr[arr.length-1] = one
 // }
-// console.log(arr,count)
+// console.log(arr)
 
 
 
@@ -113,3 +113,14 @@
 //     }
 // }
 // console.log(arr)
+
+
+
+// alphabetic pattern program
+// let n = 5
+// for(let i =1; i<=n;i++){
+//     for(let j = 1; j<=i; j++){
+//         process.stdout.write(String.fromCharCode(65+j-1))
+//     }
+//     console.log()
+// }
