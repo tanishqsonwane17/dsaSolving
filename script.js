@@ -14,6 +14,7 @@
 
 
 
+
 // for(let i =0; i<innerArray.length; i++){
 //     let insiderArray = Number(prompt('Enter your inside array length'))
 //     innerArray[i] = new Array(insiderArray)
@@ -103,7 +104,7 @@
 // let prompt =  require('prompt-sync')()
 // let input = Number(prompt('Enter your array length'))
 // let arr = new Array(input)
-// let newArr = []
+
 
 // for(let i = 0;i<arr.length; i++){
 //     let innerArr = Number(prompt('Enter your innner Array length'))
@@ -124,3 +125,55 @@
 //     }
 //     console.log()
 // }
+
+
+
+
+// let arr = [5,4,3,2,1]
+// let ans = [...new Set(arr)]
+// console.log(ans)
+
+// function abc(num){
+// let sum = 0;
+// let temp = num;
+// while(temp >0){
+// sum+= temp%10;
+// temp = Math.floor(temp/10)
+
+// }
+// return num%sum
+// }
+// console.log(abc(12))
+
+// let n = 24;
+// if(Math.sqrt(n) ){
+//     console.log(true    )
+// }
+// else console.log(false)
+
+
+
+// let n = 10;
+// for(let i = 1; i<=n; i++){
+//     if(n%3) console.log('fizz')
+//      if(n%5) console.log('Buzz')
+//      if(n%5 && n%3) console.log('fizzbuzz')
+//     console.log(i)
+// }
+
+let s = 'AcgDID';
+
+for (let i = 0; i < s.length; i++) {
+    let char = s[i];
+    let charNum = s.charCodeAt(i);
+
+    if (charNum >= 65 && charNum <= 90) {
+        let lower = String.fromCharCode(charNum + 32);
+        console.log(lower);
+    } else if (charNum >= 97 && charNum <= 122) {
+        let upper = String.fromCharCode(charNum - 32);
+        console.log(upper);
+    } else {
+        console.log(char); 
+    }
+}
