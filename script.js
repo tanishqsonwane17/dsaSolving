@@ -161,19 +161,28 @@
 //     console.log(i)
 // }
 
-let s = 'AcgDID';
+// let s = 'AcgDID';
 
-for (let i = 0; i < s.length; i++) {
-    let char = s[i];
-    let charNum = s.charCodeAt(i);
+// for (let i = 0; i < s.length; i++) {
+//     let char = s[i];
+//     let charNum = s.charCodeAt(i);
 
-    if (charNum >= 65 && charNum <= 90) {
-        let lower = String.fromCharCode(charNum + 32);
-        console.log(lower);
-    } else if (charNum >= 97 && charNum <= 122) {
-        let upper = String.fromCharCode(charNum - 32);
-        console.log(upper);
-    } else {
-        console.log(char); 
-    }
+//     if (charNum >= 65 && charNum <= 90) {
+//         let lower = String.fromCharCode(charNum + 32);
+//         console.log(lower);
+//     } else if (charNum >= 97 && charNum <= 122) {
+//         let upper = String.fromCharCode(charNum - 32);
+//         console.log(upper);
+//     } else {
+//         console.log(char); 
+//     }
+// }
+
+// Count string swith giver prefix
+let str = ['attention', 'atttttt', 'attiieoraojj', 'dflkajatt']
+let n = 'at'
+let count = 0
+for(let i= 0; i<str.length;i++){
+    if(str[i].startsWith(n)) count++
 }
+console.log(count)
