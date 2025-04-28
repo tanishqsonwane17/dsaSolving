@@ -179,10 +179,43 @@
 // }
 
 // Count string swith giver prefix
-let str = ['attention', 'atttttt', 'attiieoraojj', 'dflkajatt']
-let n = 'at'
-let count = 0
-for(let i= 0; i<str.length;i++){
-    if(str[i].startsWith(n)) count++
+// let str = ['attention', 'atttttt', 'attiieoraojj', 'dflkajatt']
+// let n = 'at'
+// let count = 0
+// for(let i= 0; i<str.length;i++){
+//     if(str[i].startsWith(n)) count++
+// }
+// console.log(count)
+
+
+// let str = 'hey bro how are you'
+// let ans = str.split("k")
+// console.log(ans)
+
+
+// let prompt = require('prompt-sync')()
+// let input = Number(prompt('Enter your Number'));
+// let sum = 1;
+// function greet(i){
+// if(i>input) return;
+// else{
+//    sum = sum*i
+//     greet(i+1)
+// }
+// }
+// greet(1)
+// console.log(sum)
+
+
+fibonacci recursively
+let n = 10
+let first = 0;
+let second = 1
+process.stdout.write(first + ' ' +second + ' ')
+function fiboNTerms(numb, first, second){
+   if(numb === 0) return
+    let third = first + second;
+    process.stdout.write(third+ ' ' ) 
+   fiboNTerms(numb-1, second, third)
 }
-console.log(count)
+fiboNTerms(n,first,second)
